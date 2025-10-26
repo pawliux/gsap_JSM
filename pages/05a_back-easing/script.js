@@ -15,7 +15,7 @@ const updateIndicator = (target) => {
         x: offset,
         width: width,
         duration: 0.4,
-        ease: 'back.out(1.7)'
+        ease: 'back.inOut(1.7)'
     })
 }
 
